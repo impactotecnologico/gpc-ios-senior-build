@@ -1,0 +1,40 @@
+{
+    "login": {
+        "username":"Nome de usuário",
+        "password":"Palavra-passe",
+        "login":"Entrar",
+        "pass_recovery":"Recuperar palavra-passe",
+		"registro":"Registro",
+		"advertencia": "warning",
+        "sin_conexion": "You must be connected to Internet in order to continue"
+    },
+    "recuperarContrasena": {
+        "title":"Restaurar palavra-passe",
+        "ingrese_mail":"Introduza seu e-mail",
+        "btn_pass_reset":"Restaurar palavra-passe",
+        "alert":{  
+            "exito":"Ação finalizada",
+            "error":"Erro",
+            "email_correcto":"Acesse o seu e-mail para obter a sua nova palavra-passe",
+            "email_incorrecto":"Por favor verifique seu e-mail, os dados não são corretos",
+            "email_error":"Erro, por favor volte a tentar mais tarde"
+        }
+    },
+    "validaciones": {
+        "despertador": "Despertador",
+        "alert_error_title":"Erro",
+        "alert_all_fields":"Por favor complete todos os espaços do formulário",
+        "no_logintud": "Please fill in the form fields with the corresponding length",
+        "no_auth":"Por favor verifique seus dados",
+        "server_err":"Erro, por favor volte a tentar mais tarde",
+        "validacion_min":"O campo deve ter no mínimo  {{value}} caracteres de longitude",
+        "validacion_max":"O campo deve ter menos de {{value}} caracteres de longitude",
+        "validacion_required":"Campo requerido",
+        "pattern_email":"Deve indicar um e-mail válido",
+        "account_error":"We were unable to get your data. Please, try again",
+        "alert_title_error": "An error has occurred",
+        "no_existe_paciente": "Your user does not have any associated patients. Please contact the Gallopinto Calendar Team.",
+		"event_error": "Warning",
+		"event_error_msg": "There's been an error retrieving your events, please try later"
+    }
+}

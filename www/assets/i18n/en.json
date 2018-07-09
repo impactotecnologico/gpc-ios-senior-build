@@ -1,0 +1,40 @@
+{
+    "login": {
+            "username": "Username",
+            "password": "Password",
+            "login": "Login",
+            "pass_recovery": "Password recovery",
+			"registro": "Sign up",
+			"advertencia": "warning",
+			"sin_conexion": "You must be connected to Internet in order to continue"
+    },
+    "recuperarContrasena": {
+        "title": "Recover password",
+        "ingrese_mail":"Please enter your email address",
+        "btn_pass_reset":"Recover password",
+        "alert": {
+            "exito": "Successful operation",
+            "error": "Error",
+            "email_correcto": "Check your email to get your new password",
+            "email_incorrecto": "Please check your email, it is incorrect",
+            "email_error": "An error has occurred, please try later"
+        }
+    },
+    "validaciones": {
+        "despertador": "Alarm clock",
+        "alert_error_title": "Error",
+        "alert_all_fields": "Please fill all form fields",
+        "no_logintud": "Please fill in the form fields with the corresponding length",
+        "no_auth": "Please check your credentials",
+        "server_err": "There's been an error, please try again later",
+        "validacion_min": "This field must have at least {{value}} characters",
+        "validacion_max": "This field cannot exceed the {{value}} characters",
+        "validacion_required": "The field is required",
+        "pattern_email": "You must indicate a valid email",
+        "account_error":"We were unable to get your data. Please, try again",
+        "alert_title_error": "An error has occurred",
+        "no_existe_paciente": "Your user does not have any associated patients. Please contact the Gallopinto Calendar Team.",
+		"event_error": "Warning",
+		"event_error_msg": "There's been an error retrieving your events, please try later"
+    }
+}

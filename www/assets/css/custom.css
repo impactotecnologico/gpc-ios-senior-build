@@ -1,0 +1,325 @@
+/*======================================================================
+                          TIPOS DE LETRAS
+======================================================================*/
+
+@font-face { 
+    font-family: "Gotham-Book"; 
+    src: url("../fonts/Gotham/Gotham-Book.otf"); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "Gotham-Light"; 
+    src: url("../fonts/Gotham/Gotham-Light.otf");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face { 
+    font-family: "Gotham-Medium"; 
+    src: url("../fonts/Gotham/Gotham-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "BrannbollFet"; 
+    src: url("../fonts/brannboll/BrannbollFet.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "BrannbollSmal"; 
+    src: url("../fonts/brannboll/BrannbollSmal.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*===========================================================================*/
+
+.gothamMedium {
+  font-family: Gotham-Medium ;
+}
+
+.gothamBook {
+  font-family: Gotham-Book ;
+}
+
+ion-title {
+  font-family: Gotham-Medium !important;
+}
+
+button {
+  font-family: Gotham-Medium !important;
+}
+
+ion-list button {
+  font-family: Gotham-Book !important;
+}
+
+.login-container{
+      background-image: url("../imgs/fondo_gallopinto.jpg");
+      background-position: center top;
+      background-repeat:  no-repeat;
+      background-size:  cover;
+      width: 100%;
+      height: 100vh;
+}
+
+.loginContainer{
+    padding: 0 !important;
+    margin-top: 0 !important;
+}
+
+.hidden_div{
+    padding: 0px !important;
+    position: absolute !important;
+    z-index: 10;
+    width: 100% !important;
+}
+
+.pink{
+    background-color: rgb(226,0,122) !important;
+}
+
+.login-container * {
+  position: relative;
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  z-index:0;
+  background-color: rgba(0,0,0,.5);
+}
+
+.overlay:hover:before{
+  display: block;
+}
+
+.white-link {
+  color: #fff !important;
+  font-size: 25px;
+  border-bottom: 1px solid #fff;
+}
+
+.login-item{
+    background-color: transparent !important;
+    color: #fff !important;
+    font-size: 4.5vw !important;
+    border: 2px solid #fff !important;
+    border-radius: 5px !important;
+    margin-bottom: 11px !important;
+    height: 6vh !important;
+    width: 100% !important;
+    /*left: 10% !important;*/
+    margin-right: -50% !important;
+    /*transform: translate(-50%, -50%) !important;*/
+}
+
+.login-item input::placeholder {
+  color: #fff !important;
+}
+
+.login-logo {
+  width: 100%;
+}
+
+.circle-img {
+  border-radius: 50%;
+  width: 25%;
+}
+
+.profile-pic-form{
+  margin-right: 25px;
+  float: left;
+}
+
+.profile-edit-pic {
+  margin-top: 8% !important;
+  font-size: 1.0rem !important;
+  width: 170px !important;
+  text-align: left !important;
+  padding-left: 0px !important;
+}
+
+.calendar-view-btn {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pink-gpc{
+  background-color: rgb(266, 0, 122) !important;
+  color: #fff !important;
+}
+
+.blur{
+      padding: 0 !important;
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      /*filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+      -webkit-filter: url(#blur-filter);
+      filter: url(#blur-filter);
+      -webkit-filter: blur(3px);
+      filter: blur(3px);*/
+}
+
+.primary {
+      background-color: rgb(242,148,0) !important;
+      color: #000 !important;
+}
+
+/*.input-has-focus .item-inner{
+      border-bottom-color: #fff !important;
+      box-shadow: #fff !important; 
+}*/
+
+.input-has-focus .label-md{
+      color:#000 !important;
+}
+
+.login-label{
+      color:#fff !important;
+}
+
+.login-btn {
+    width: 50%;
+    height: 45px !important;
+    font-size: 20px !important;
+}
+
+.toolbar-background-md {
+      background: rgb(242,148,0) !important;
+      color: #000 !important;
+}
+
+.primary-dark{
+      background: rgb(200,148,0) !important;
+      color: #000 !important;
+}
+
+.white-btn{
+      background: rgb(255,255,255) !important;
+      color: #000 !important;
+}
+
+.help_text {
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.videos_text {
+  margin: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.validation-control {
+  margin: 10px !important;
+  width: 95% !important;
+  border-radius: 5% !important;
+}
+
+.text-validation {
+  color: rgb(190, 10, 38) !important;
+  font-weight: bold;
+  border: #fff !important;
+  font-size: 18px !important;
+}
+
+.round {
+      background-color: rgb(242,148,0);
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+}
+
+page-feed .bg-all
+{
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+page-calendar-events .bg-all {
+  background: url('../imgs/dolomitas.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.centered, .centered *
+{
+  text-align:center;
+}
+
+.cal-disabled {
+  background-color: #eee;
+  pointer-events: none;
+}
+
+.cal-disabled .cal-day-number {
+  opacity: 0.1;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+    border-bottom-color: #f53d3d00 !important;
+    -webkit-box-shadow: inset 0 -1px 0 0 #f53d3d00 !important;
+    box-shadow: inset 0 -1px 0 0 #f53d3d00 !important;
+}
+
+.item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+    border-bottom-color: #32db6400 !important;
+    -webkit-box-shadow: inset 0 -1px 0 0 #32db6400 !important;
+    box-shadow: inset 0 -1px 0 0 #32db6400 !important;
+}
+
+.item-md.item-input.item-input-has-focus .item-inner, .item-md.item-input.input-has-focus .item-inner {
+    border-bottom-color: #32db6400 !important;
+    -webkit-box-shadow: inset 0 -1px 0 0 #32db6400 !important;
+    box-shadow: inset 0 -1px 0 0 #32db6400 !important;
+}
+
+@media (max-width: 767px) {
+    .login-btn {
+        width: 60%;
+        height: 38px !important;
+        font-size: 16px !important;
+    }
+
+    .white-link {
+      font-size: 17px;
+    }
+
+    .login-item{
+        /*height: 7vh !important;*/
+    }
+
+    .text-validation {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 582px) {
+    .login-btn {
+        /*font-size: 1em !important;*/
+    }
+
+    .white-link {
+      font-size: 17px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+}

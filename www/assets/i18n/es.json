@@ -1,0 +1,41 @@
+{
+    "login": {
+        "username": "Nombre de usuario",
+        "password": "Contraseña",
+        "login": "Iniciar sesión",
+        "pass_recovery": "Recuperar contraseña",
+		"registro":"Registrarme",
+		"advertencia": "Advertencia",
+        "sin_conexion": "Debes estar conectado a internet para continuar"
+    },
+    "recuperarContrasena": {
+        "title": "Recuperar contraseña",
+        "ingrese_mail":"Introduce tu email",
+        "btn_pass_reset":"Recuperar contraseña",
+        "alert": {
+            "exito": "Operación realizada",
+            "error": "Error",
+            "email_correcto": "Revisa tu correo electrónico para obtener tu nueva contraseña",
+            "email_incorrecto": "Por favor verifica tu email, es incorrecto",
+            "email_error": "Ha ocurrido un error, por favor intente más tarde"
+        }
+    },
+    "validaciones": {
+        "despertador": "Despertador",
+        "alert_error_title": "Error",
+        "alert_all_fields": "Por favor llena todos los campos del formulario",
+        "no_logintud": "Por favor llene los campos del formulario con la longitud correspondiente",
+        "no_auth": "Por favor verifica tus credenciales",
+        "server_err": "Ha ocurrido un error, por favor intenta más tarde",
+        "validacion_min": "El campo debe tener al menos {{value}} caracteres de longitud",
+        "validacion_max": "El campo debe tener menos de {{value}} caracteres de longitud",
+        "validacion_required": "El campo es requerido",
+        "pattern_email": "Debes indicar un email válido",
+        "account_error":"No hemos podido traer tus datos, intenta nuevamente por favor",
+        "alert_title_error": "Ha ocurrido un error",
+		"no_existe_paciente": "Su usuario no tiene ningún paciente asociado. Por favor comuníquese con el Equipo de Gallopinto Calendar.",
+		"event_error": "Lo sentimos",
+		"event_error_msg": "Ha ocurrido un error al traer tus eventos, por favor intenta más tarde"
+
+    }
+}
