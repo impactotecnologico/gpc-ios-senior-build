@@ -41,6 +41,14 @@ module.exports = [
     ]
   },
   {
+    "id": "cordova-plugin-fdkeychain.FDKeychain",
+    "file": "plugins/cordova-plugin-fdkeychain/www/FDKeychain.js",
+    "pluginId": "cordova-plugin-fdkeychain",
+    "clobbers": [
+      "cordova.plugins.FDKeychain"
+    ]
+  },
+  {
     "id": "cordova-plugin-file.DirectoryEntry",
     "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
     "pluginId": "cordova-plugin-file",
@@ -262,6 +270,14 @@ module.exports = [
     ]
   },
   {
+    "id": "cordova-plugin-ios-keychain.Keychain",
+    "file": "plugins/cordova-plugin-ios-keychain/www/keychain.js",
+    "pluginId": "cordova-plugin-ios-keychain",
+    "clobbers": [
+      "window.Keychain"
+    ]
+  },
+  {
     "id": "cordova-plugin-local-notification.LocalNotification",
     "file": "plugins/cordova-plugin-local-notification/www/local-notification.js",
     "pluginId": "cordova-plugin-local-notification",
@@ -372,11 +388,13 @@ module.exports.metadata =
   "cordova-plugin-badge": "0.8.7",
   "cordova-plugin-brightness": "0.1.5",
   "cordova-plugin-device": "1.1.7",
+  "cordova-plugin-fdkeychain": "1.1.2",
   "cordova-plugin-file": "6.0.1",
   "cordova-plugin-file-transfer": "1.7.1",
   "cordova-plugin-fullscreen": "1.1.0",
   "cordova-plugin-globalization": "1.11.0",
   "cordova-plugin-ionic-webview": "1.1.16",
+  "cordova-plugin-ios-keychain": "3.0.1",
   "cordova-plugin-local-notification": "0.9.0-beta.2",
   "cordova-plugin-media": "5.0.2",
   "cordova-plugin-nativestorage": "2.3.1",
