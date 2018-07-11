@@ -27,17 +27,11 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
-import AppCenter
-import AppCenterDistribute
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
-    MSAppCenter.start("1f097edd-37ed-4b55-b0a2-0f73000d459a", withServices:[
-        MSAnalytics.self,
-        MSCrashes.self
-    ])
     self.viewController = [[MainViewController alloc] init];
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
