@@ -519,7 +519,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 9WM98ZU85L;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -688,8 +688,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 9WM98ZU85L;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -706,7 +706,8 @@
 					"\"$(SRCROOT)/Gallo Pinto Calendar para Seniors/Plugins/com.cmackay.plugins.googleanalytics\"",
 				);
 				PRODUCT_NAME = "Gallo Pinto Calendar para Seniors";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "17a4e04f-a2bc-4761-b897-515472dd3286";
+				PROVISIONING_PROFILE_SPECIFIER = "gallopinto-seniors";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -720,8 +721,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 9WM98ZU85L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -736,7 +737,8 @@
 					"\"$(SRCROOT)/Gallo Pinto Calendar para Seniors/Plugins/com.cmackay.plugins.googleanalytics\"",
 				);
 				PRODUCT_NAME = "Gallo Pinto Calendar para Seniors";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "17a4e04f-a2bc-4761-b897-515472dd3286";
+				PROVISIONING_PROFILE_SPECIFIER = "gallopinto-seniors";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
